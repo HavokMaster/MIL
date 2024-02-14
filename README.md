@@ -15,4 +15,8 @@ A Custom Image Loader for AI/ML purposes that I wrote because why not!
 
 * `loadFromDump` loads the images from a dump file, by default it loads from "images.pkl".
 
-* `getClasses` returns list of all classes which can be used to refer the labels.
+* `getClasses` returns list of all classes which can be used to refer the labels. Can pass folder dir as argument to get classes (default is "images").
+
+* `maxSize` defines the max images that should be loaded per class (default is 2000).
+
+* `normalize` can be set to True to normalize pixel values between 0 and 1. False by default.
